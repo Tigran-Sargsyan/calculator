@@ -116,6 +116,7 @@ class UI(QMainWindow):
         count = 0
 
         if self.expression and self.expression[-1] == '0' and symbol != '.':
+            print('added sth!')
             return self.expression
 
         if symbol == "=":
